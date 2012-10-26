@@ -1,0 +1,36 @@
+
+* TODO
+
+
+. Job control, IPC, I/O redirect and co-processes.
+
+. C-like scripting language based on tcc -run.
+
+. Make the readline(3) setting editable at run time. Also a custom completer
+  should be added in order to be able to complete executable files (and
+  builtins); the wordexp(3) (or pcre) completion is also possible this way.
+
+. Replace wildcards with Perl-extended regular expressions?
+
+. Functions and aliases: the latter should be a synonym for the former, just
+  with a different declaration statement and rules. This way it's possible (and
+  easy) to handle arguments in aliases.
+
+. Handle hypen character before the program name (login shell).
+
+. Startup file.
+
+. Scripting language.
+
+. Builtin commands
+
+   - printf	A wrapper for the printf(3) function
+   - tzset	Do we really need it?
+   - read	Read a value and store it into a variable 
+   - What else?
+
+. Allow a meta-directory for the cd bultin command which allows to go up as
+  many directory as the number of dots specified.
+
+. Look for all TODOs and XXXs comments into the code.
+
